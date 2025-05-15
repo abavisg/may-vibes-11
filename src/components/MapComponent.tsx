@@ -82,10 +82,10 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
   return (
     <div className="h-[60vh] md:h-[70vh] w-full rounded-lg overflow-hidden shadow-lg border border-gray-200">
       <MapContainer
-        center={center}
-        zoom={zoom}
-        style={{ height: "100%", width: "100%" }}
         ref={mapRef}
+        style={{ height: "100%", width: "100%" }}
+        zoom={2}
+        center={[30, 0] as [number, number]}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -96,7 +96,7 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
         {battles.map((battle) => (
           <Marker
             key={battle.id}
-            position={[battle.location.lat, battle.location.lng]}
+            position={[battle.location.lat, battle.location.lng] as [number, number]}
             icon={createMarkerIcon(battle, deathType)}
           >
             <Popup>
