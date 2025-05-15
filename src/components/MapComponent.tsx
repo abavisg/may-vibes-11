@@ -4,6 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import type { Battle } from "@/data/wwiiData";
 import { cn } from "@/lib/utils";
+import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
 
 // Define marker size based on death count
 const getMarkerSize = (deaths: number): number => {
@@ -70,8 +71,8 @@ interface MapComponentProps {
 
 const MapComponent = ({ battles, deathType }: MapComponentProps) => {
   const mapRef = useRef<L.Map | null>(null);
-  const [center, setCenter] = useState<[number, number]>([30, 0]);
-  const [zoom, setZoom] = useState(2);
+  const [center] = useState<[number, number]>([30, 0]);
+  const [zoom] = useState(2);
 
   // Format death numbers
   const formatDeaths = (num: number): string => {
@@ -84,12 +85,11 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
         center={center}
         zoom={zoom}
         style={{ height: "100%", width: "100%" }}
-        whenCreated={(map) => { mapRef.current = map }}
+        ref={mapRef}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          className="map-tiles"
         />
         <MapCenter center={center} zoom={zoom} />
         
@@ -99,7 +99,7 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
             position={[battle.location.lat, battle.location.lng]}
             icon={createMarkerIcon(battle, deathType)}
           >
-            <Popup className="battle-popup">
+            <Popup>
               <div className="p-1">
                 <h3 className="font-bold text-lg">{battle.name}</h3>
                 <p className="text-sm text-gray-600">

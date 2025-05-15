@@ -1,4 +1,3 @@
-
 export interface Battle {
   id: string;
   name: string;
@@ -21,6 +20,14 @@ export interface Battle {
     civilian: number;
   };
   year: number;
+}
+
+// Calculate annual death totals
+export interface YearlyDeaths {
+  year: number;
+  military: number;
+  civilian: number;
+  total: number;
 }
 
 export const battles: Battle[] = [
@@ -257,13 +264,6 @@ export const battles: Battle[] = [
 ];
 
 // Calculate annual death totals
-interface YearlyDeaths {
-  year: number;
-  military: number;
-  civilian: number;
-  total: number;
-}
-
 export const yearlyDeaths: YearlyDeaths[] = [
   { year: 1939, military: 120000, civilian: 18000, total: 138000 },
   { year: 1940, military: 280000, civilian: 460000, total: 740000 },
