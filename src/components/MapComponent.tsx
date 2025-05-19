@@ -5,51 +5,15 @@ import type { Battle } from "@/data/wwiiData";
 import { cn } from "@/lib/utils";
 import "leaflet/dist/leaflet.css"; // Import Leaflet CSS
 
-// Define marker size based on death count
-const getMarkerSize = (deaths: number): number => {
-  if (deaths > 500000) return 30;
-  if (deaths > 100000) return 25;
-  if (deaths > 50000) return 20;
-  if (deaths > 10000) return 15;
-  return 10;
-};
-
-// Define marker color based on sides
-const getMarkerColor = (battle: Battle): string => {
-  const alliesCount = battle.sides.allies.length;
-  const axisCount = battle.sides.axis.length;
-  
-  if (alliesCount > 0 && axisCount === 0) return "#3b82f6"; // Allies blue
-  if (axisCount > 0 && alliesCount === 0) return "#ef4444"; // Axis red
-  return "#8b5cf6"; // Both sides purple
-};
-
-// Custom marker icon
-const createMarkerIcon = (battle: Battle, deathType: 'military' | 'civilian' | 'all') => {
-  const deaths = deathType === 'civilian' 
-    ? battle.deaths.civilian
-    : deathType === 'military'
-    ? battle.deaths.military.allies + battle.deaths.military.axis
-    : battle.deaths.military.allies + battle.deaths.military.axis + battle.deaths.civilian; // Calculate total deaths for 'all'
-  
-  const size = getMarkerSize(deaths);
-  const color = getMarkerColor(battle);
-  
-  return L.divIcon({
-    className: "custom-marker",
-    html: `<div style="
-      background-color: ${color};
-      width: ${size}px;
-      height: ${size}px;
-      border-radius: 50%;
-      opacity: 0.8;
-      border: 2px solid #fff;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    "></div>`,
-    iconSize: [size, size],
-    iconAnchor: [size / 2, size / 2]
-  });
-};
+const customFlagIcon = L.icon({
+  iconUrl: '/icons/flag.svg',
+  iconRetinaUrl: '/icons/flag.svg',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowUrl: '/icons/marker-shadow.png',
+  shadowSize: [41, 41]
+});
 
 interface MapCenterProps {
   center: [number, number];
@@ -108,6 +72,8 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
             <Marker
               key={battle.id}
               position={[battle.location.lat, battle.location.lng] as [number, number]}
+              // @ts-ignore
+              icon={customFlagIcon}
             >
               <Popup>
                 <div className="p-1">
