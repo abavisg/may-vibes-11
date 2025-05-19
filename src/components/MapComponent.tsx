@@ -25,10 +25,12 @@ const getMarkerColor = (battle: Battle): string => {
 };
 
 // Custom marker icon
-const createMarkerIcon = (battle: Battle, deathType: string) => {
+const createMarkerIcon = (battle: Battle, deathType: 'military' | 'civilian' | 'all') => {
   const deaths = deathType === 'civilian' 
     ? battle.deaths.civilian
-    : battle.deaths.military.allies + battle.deaths.military.axis;
+    : deathType === 'military'
+    ? battle.deaths.military.allies + battle.deaths.military.axis
+    : battle.deaths.military.allies + battle.deaths.military.axis + battle.deaths.civilian; // Calculate total deaths for 'all'
   
   const size = getMarkerSize(deaths);
   const color = getMarkerColor(battle);
@@ -65,7 +67,7 @@ const MapCenter = ({ center, zoom }: MapCenterProps) => {
 
 interface MapComponentProps {
   battles: Battle[];
-  deathType: 'military' | 'civilian';
+  deathType: 'military' | 'civilian' | 'all';
 }
 
 // Define custom interface to match expected props structure
@@ -127,7 +129,7 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
                     </div>
                   </div>
                   
-                  <div className={cn("mt-2 p-2 rounded", deathType === 'military' ? "bg-blue-50" : "bg-red-50")}>
+                  <div className={cn("mt-2 p-2 rounded", deathType === 'military' ? "bg-blue-50" : deathType === 'civilian' ? "bg-red-50" : "bg-purple-50")}>
                     {deathType === 'military' ? (
                       <>
                         <h4 className="font-semibold">Military Deaths</h4>
@@ -137,11 +139,18 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
                           Total: {formatDeaths(battle.deaths.military.allies + battle.deaths.military.axis)}
                         </p>
                       </>
-                    ) : (
+                    ) : deathType === 'civilian' ? (
                       <>
                         <h4 className="font-semibold">Civilian Deaths</h4>
                         <p className="text-sm font-medium">
                           Total: {formatDeaths(battle.deaths.civilian)}
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <h4 className="font-semibold">Total Deaths</h4>
+                        <p className="text-sm font-medium">
+                          Total: {formatDeaths(battle.deaths.military.allies + battle.deaths.military.axis + battle.deaths.civilian)}
                         </p>
                       </>
                     )}

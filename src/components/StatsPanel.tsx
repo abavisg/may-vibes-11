@@ -1,10 +1,9 @@
-
 import { Battle } from "@/data/wwiiData";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 interface StatsPanelProps {
   battles: Battle[];
-  deathType: 'military' | 'civilian';
+  deathType: 'military' | 'civilian' | 'all';
 }
 
 const StatsPanel = ({ battles, deathType }: StatsPanelProps) => {
@@ -13,8 +12,11 @@ const StatsPanel = ({ battles, deathType }: StatsPanelProps) => {
     if (deathType === 'military') {
       return battles.reduce((sum, battle) => 
         sum + battle.deaths.military.allies + battle.deaths.military.axis, 0);
-    } else {
+    } else if (deathType === 'civilian') {
       return battles.reduce((sum, battle) => sum + battle.deaths.civilian, 0);
+    } else { // deathType === 'all'
+      return battles.reduce((sum, battle) => 
+        sum + battle.deaths.military.allies + battle.deaths.military.axis + battle.deaths.civilian, 0);
     }
   };
 
@@ -48,7 +50,7 @@ const StatsPanel = ({ battles, deathType }: StatsPanelProps) => {
       <Card>
         <CardHeader className="pb-2">
           <CardTitle className="text-lg">
-            {deathType === 'military' ? 'Military Deaths' : 'Civilian Deaths'}
+            {deathType === 'military' ? 'Military Deaths' : deathType === 'civilian' ? 'Civilian Deaths' : 'Total Deaths'}
           </CardTitle>
           <CardDescription>Total from visible battles</CardDescription>
         </CardHeader>

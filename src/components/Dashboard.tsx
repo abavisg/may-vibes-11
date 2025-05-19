@@ -1,4 +1,3 @@
-
 import { useState, useMemo } from "react";
 import { battles, yearlyDeaths } from "@/data/wwiiData";
 import MapComponent from "./MapComponent";
@@ -7,12 +6,14 @@ import TimelineChart from "./TimelineChart";
 import StatsPanel from "./StatsPanel";
 
 const Dashboard = () => {
-  const [deathType, setDeathType] = useState<'military' | 'civilian'>('military');
+  const [deathType, setDeathType] = useState<'military' | 'civilian' | 'all'>('all');
   const [filters, setFilters] = useState<FilterState>({
     side: "all",
     country: "All Countries",
     year: "all",
   });
+
+  const panelChartDeathType: 'military' | 'civilian' = deathType === 'all' ? 'military' : deathType;
 
   // Apply filters to battles
   const filteredBattles = useMemo(() => {
@@ -68,7 +69,7 @@ const Dashboard = () => {
 
       <TimelineChart 
         data={yearlyDeaths} 
-        deathType={deathType === 'military' ? 'military' : 'civilian'} 
+        deathType={panelChartDeathType} 
       />
 
       <footer className="mt-8 text-center text-sm text-gray-500">

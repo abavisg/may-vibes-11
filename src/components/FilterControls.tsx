@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
@@ -8,8 +7,8 @@ import { countries } from "@/data/wwiiData";
 
 interface FilterControlsProps {
   onFilterChange: (filters: FilterState) => void;
-  deathType: string;
-  onDeathTypeChange: (type: 'military' | 'civilian') => void;
+  deathType: 'military' | 'civilian' | 'all';
+  onDeathTypeChange: (type: 'military' | 'civilian' | 'all') => void;
 }
 
 export interface FilterState {
@@ -39,16 +38,19 @@ const FilterControls = ({ onFilterChange, deathType, onDeathTypeChange }: Filter
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <div className="mr-4">
             <Label htmlFor="casualty-type" className="mr-2 mb-1 block">Casualty Type</Label>
-            <Tabs
-              defaultValue={deathType}
-              onValueChange={(value) => onDeathTypeChange(value as 'military' | 'civilian')}
-              className="w-[260px]"
+            <Select
+              value={deathType}
+              onValueChange={(value) => onDeathTypeChange(value as 'military' | 'civilian' | 'all')}
             >
-              <TabsList className="grid w-full grid-cols-2">
-                <TabsTrigger value="military">Military Deaths</TabsTrigger>
-                <TabsTrigger value="civilian">Civilian Deaths</TabsTrigger>
-              </TabsList>
-            </Tabs>
+              <SelectTrigger id="casualty-type" className="w-[180px]">
+                <SelectValue placeholder="Select casualty type" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="military">Military Deaths</SelectItem>
+                <SelectItem value="civilian">Civilian Deaths</SelectItem>
+                <SelectItem value="all">All Deaths</SelectItem>
+              </SelectContent>
+            </Select>
           </div>
           
           <div>
