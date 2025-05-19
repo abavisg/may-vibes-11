@@ -11,8 +11,6 @@ const customFlagIcon = L.icon({
   iconSize: [25, 41],
   iconAnchor: [12, 41],
   popupAnchor: [1, -34],
-  shadowUrl: '/icons/marker-shadow.png',
-  shadowSize: [41, 41]
 });
 
 interface MapCenterProps {
@@ -74,8 +72,6 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
             <Marker
               key={battle.id}
               position={[battle.location.lat, battle.location.lng] as [number, number]}
-              // @ts-ignore
-              icon={customFlagIcon}
             >
               <Popup>
                 <div className="p-1">
