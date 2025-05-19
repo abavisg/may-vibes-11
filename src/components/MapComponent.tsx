@@ -117,6 +117,27 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
                     {battle.endDate ? new Date(battle.endDate).toLocaleDateString() : "Ongoing"}
                   </p>
                   <p className="text-sm">{battle.location.country}</p>
+                  <div className="text-sm font-medium mt-1 flex items-center gap-2">
+                    Type:
+                    {battle.type.map(type => {
+                      let iconSrc = '';
+                      let altText = '';
+                      if (type === 'ground') {
+                        iconSrc = '/icons/ground.svg';
+                        altText = 'Ground battle';
+                      } else if (type === 'naval') {
+                        iconSrc = '/icons/naval.svg';
+                        altText = 'Naval battle';
+                      } else if (type === 'air') {
+                        iconSrc = '/icons/air.svg';
+                        altText = 'Air battle';
+                      }
+                      if (!iconSrc) return null;
+                      return (
+                        <img key={type} src={iconSrc} alt={altText} className="w-4 h-4" title={type} />
+                      );
+                    })}
+                  </div>
                   
                   <div className="mt-2">
                     <div className="flex items-center gap-2">
