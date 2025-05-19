@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { battles } from "@/data/wwiiData";
+import { battles, YearlyDeaths } from "@/data/wwiiData";
 import MapComponent from "./MapComponent";
 import FilterControls, { FilterState } from "./FilterControls";
 import TimelineChart from "./TimelineChart";
@@ -13,7 +13,7 @@ const Dashboard = () => {
     year: "all",
   });
 
-  const panelChartDeathType: 'military' | 'civilian' = deathType === 'all' ? 'military' : deathType;
+  const panelChartDeathType: 'military' | 'civilian' | 'total' = deathType === 'all' ? 'total' : deathType;
 
   // Apply filters to battles
   const filteredBattles = useMemo(() => {
@@ -47,7 +47,7 @@ const Dashboard = () => {
     });
   }, [filters]);
 
-  const yearlyCasualties = useMemo(() => {
+  const yearlyCasualties: YearlyDeaths[] = useMemo(() => {
     const deathsByYear: { [year: number]: { allies: number; axis: number; civilian: number; total: number } } = {};
 
     // Initialize all years from 1939 to 1945 with zero deaths
@@ -57,17 +57,35 @@ const Dashboard = () => {
 
     filteredBattles.forEach(battle => {
       if (deathsByYear[battle.year]) {
-        deathsByYear[battle.year].allies += battle.deaths.military.allies;
-        deathsByYear[battle.year].axis += battle.deaths.military.axis;
+        // Apply side filter to military deaths for the timeline chart
+        let alliedMilitaryDeaths = battle.deaths.military.allies;
+        let axisMilitaryDeaths = battle.deaths.military.axis;
+
+        if (filters.side === 'allies') {
+          axisMilitaryDeaths = 0; // Exclude Axis deaths if Allies filter is active
+        } else if (filters.side === 'axis') {
+          alliedMilitaryDeaths = 0; // Exclude Allied deaths if Axis filter is active
+        }
+
+        deathsByYear[battle.year].allies += alliedMilitaryDeaths;
+        deathsByYear[battle.year].axis += axisMilitaryDeaths;
         deathsByYear[battle.year].civilian += battle.deaths.civilian;
-        deathsByYear[battle.year].total += battle.deaths.military.allies + battle.deaths.military.axis + battle.deaths.civilian;
+        deathsByYear[battle.year].total += alliedMilitaryDeaths + axisMilitaryDeaths + battle.deaths.civilian;
       }
     });
 
     return Object.keys(deathsByYear)
-      .map(year => ({ year: parseInt(year), ...deathsByYear[parseInt(year)] }))
+      .map(year => {
+        const yearData = deathsByYear[parseInt(year)];
+        return { 
+          year: parseInt(year),
+          military: yearData.allies + yearData.axis, // Combine allied and axis military deaths
+          civilian: yearData.civilian,
+          total: yearData.total
+        };
+      })
       .sort((a, b) => a.year - b.year);
-  }, [filteredBattles]);
+  }, [filteredBattles, filters.side]); // Add filters.side to dependencies
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -82,7 +100,7 @@ const Dashboard = () => {
         onDeathTypeChange={setDeathType} 
       />
 
-      <StatsPanel battles={filteredBattles} deathType={deathType} />
+      <StatsPanel battles={filteredBattles} deathType={deathType} filters={filters} />
       
       <MapComponent 
         battles={filteredBattles}
@@ -91,7 +109,7 @@ const Dashboard = () => {
 
       <TimelineChart 
         data={yearlyCasualties} 
-        deathType={panelChartDeathType} 
+        deathType={panelChartDeathType}
       />
     </div>
   );

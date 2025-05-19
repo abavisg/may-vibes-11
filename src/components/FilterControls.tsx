@@ -40,7 +40,14 @@ const FilterControls = ({ onFilterChange, deathType, onDeathTypeChange }: Filter
             <Label htmlFor="casualty-type" className="mr-2 mb-1 block">Casualty Type</Label>
             <Select
               value={deathType}
-              onValueChange={(value) => onDeathTypeChange(value as 'military' | 'civilian' | 'all')}
+              onValueChange={(value) => {
+                const newDeathType = value as 'military' | 'civilian' | 'all';
+                onDeathTypeChange(newDeathType);
+                // If casualty type is not military, reset side filter
+                if (newDeathType !== 'military') {
+                  handleFilterChange('side', 'all');
+                }
+              }}
             >
               <SelectTrigger id="casualty-type" className="w-[180px]">
                 <SelectValue placeholder="Select casualty type" />
@@ -58,7 +65,7 @@ const FilterControls = ({ onFilterChange, deathType, onDeathTypeChange }: Filter
             <Select 
               value={filters.side} 
               onValueChange={(value) => handleFilterChange('side', value)}
-              disabled={deathType === 'civilian'}
+              disabled={deathType === 'civilian' || deathType === 'all'}
             >
               <SelectTrigger id="side-filter" className="w-[180px]">
                 <SelectValue placeholder="Filter by side" />

@@ -1,22 +1,38 @@
 import { Battle } from "@/data/wwiiData";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { FilterState } from "./FilterControls";
 
 interface StatsPanelProps {
   battles: Battle[];
   deathType: 'military' | 'civilian' | 'all';
+  filters: FilterState;
 }
 
-const StatsPanel = ({ battles, deathType }: StatsPanelProps) => {
+const StatsPanel = ({ battles, deathType, filters }: StatsPanelProps) => {
   // Calculate total deaths based on current filter
   const calculateTotalDeaths = () => {
+    let totalMilitary = 0;
+    let totalCivilian = 0;
+
+    battles.forEach(battle => {
+      if (filters.side === "all") {
+        totalMilitary += battle.deaths.military.allies;
+        totalMilitary += battle.deaths.military.axis;
+      } else if (filters.side === "allies") {
+        totalMilitary += battle.deaths.military.allies;
+      } else if (filters.side === "axis") {
+        totalMilitary += battle.deaths.military.axis;
+      }
+      // Civilian deaths are not filtered by side
+      totalCivilian += battle.deaths.civilian;
+    });
+
     if (deathType === 'military') {
-      return battles.reduce((sum, battle) => 
-        sum + battle.deaths.military.allies + battle.deaths.military.axis, 0);
+      return totalMilitary;
     } else if (deathType === 'civilian') {
-      return battles.reduce((sum, battle) => sum + battle.deaths.civilian, 0);
+      return totalCivilian;
     } else { // deathType === 'all'
-      return battles.reduce((sum, battle) => 
-        sum + battle.deaths.military.allies + battle.deaths.military.axis + battle.deaths.civilian, 0);
+      return totalMilitary + totalCivilian;
     }
   };
 
