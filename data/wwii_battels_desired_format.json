@@ -1,0 +1,30 @@
+[
+  {
+    "id": "b1",
+    "name": "Battle of Britain",
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "country": "United Kingdom"
+    },
+    "startDate": "1940-07-10",
+    "endDate": "1940-10-31",
+    "sides": {
+      "allies": [
+        "United Kingdom"
+      ],
+      "axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "deaths": {
+      "military": {
+        "allies": 1542,
+        "axis": 2698
+      },
+      "civilian": 14286
+    },
+    "year": 1940
+  }
+]

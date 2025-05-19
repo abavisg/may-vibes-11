@@ -1,4 +1,3 @@
-
 import { useEffect, useRef, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
@@ -95,65 +94,62 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
       <MapContainer
         ref={mapRef}
         style={{ height: "100%", width: "100%" }}
-        zoom={2}
-        center={[30, 0]}
       >
-        {/* @ts-ignore - Ignoring type issues with TileLayer props */}
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MapCenter center={center} zoom={zoom} />
         
         {battles.map((battle) => (
           /* @ts-ignore - Ignoring type issues with Marker props */
-          <Marker
-            key={battle.id}
-            position={[battle.location.lat, battle.location.lng] as [number, number]}
-            icon={createMarkerIcon(battle, deathType)}
-          >
-            <Popup>
-              <div className="p-1">
-                <h3 className="font-bold text-lg">{battle.name}</h3>
-                <p className="text-sm text-gray-600">
-                  {new Date(battle.startDate).toLocaleDateString()} - 
-                  {battle.endDate ? new Date(battle.endDate).toLocaleDateString() : "Ongoing"}
-                </p>
-                <p className="text-sm">{battle.location.country}</p>
-                
-                <div className="mt-2">
-                  <div className="flex items-center gap-2">
-                    <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
-                    <span className="text-sm font-medium">Allies: {battle.sides.allies.join(", ")}</span>
+          battle.location.lat !== null && battle.location.lng !== null && (
+            <Marker
+              key={battle.id}
+              position={[battle.location.lat, battle.location.lng] as [number, number]}
+            >
+              <Popup>
+                <div className="p-1">
+                  <h3 className="font-bold text-lg">{battle.name}</h3>
+                  <p className="text-sm text-gray-600">
+                    {new Date(battle.startDate).toLocaleDateString()} - 
+                    {battle.endDate ? new Date(battle.endDate).toLocaleDateString() : "Ongoing"}
+                  </p>
+                  <p className="text-sm">{battle.location.country}</p>
+                  
+                  <div className="mt-2">
+                    <div className="flex items-center gap-2">
+                      <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
+                      <span className="text-sm font-medium">Allies: {battle.sides.allies.join(", ")}</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="w-3 h-3 bg-red-500 rounded-full"></span>
+                      <span className="text-sm font-medium">Axis: {battle.sides.axis.join(", ")}</span>
+                    </div>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <span className="w-3 h-3 bg-red-500 rounded-full"></span>
-                    <span className="text-sm font-medium">Axis: {battle.sides.axis.join(", ")}</span>
+                  
+                  <div className={cn("mt-2 p-2 rounded", deathType === 'military' ? "bg-blue-50" : "bg-red-50")}>
+                    {deathType === 'military' ? (
+                      <>
+                        <h4 className="font-semibold">Military Deaths</h4>
+                        <p className="text-sm">Allies: {formatDeaths(battle.deaths.military.allies)}</p>
+                        <p className="text-sm">Axis: {formatDeaths(battle.deaths.military.axis)}</p>
+                        <p className="text-sm font-medium mt-1">
+                          Total: {formatDeaths(battle.deaths.military.allies + battle.deaths.military.axis)}
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <h4 className="font-semibold">Civilian Deaths</h4>
+                        <p className="text-sm font-medium">
+                          Total: {formatDeaths(battle.deaths.civilian)}
+                        </p>
+                      </>
+                    )}
                   </div>
                 </div>
-                
-                <div className={cn("mt-2 p-2 rounded", deathType === 'military' ? "bg-blue-50" : "bg-red-50")}>
-                  {deathType === 'military' ? (
-                    <>
-                      <h4 className="font-semibold">Military Deaths</h4>
-                      <p className="text-sm">Allies: {formatDeaths(battle.deaths.military.allies)}</p>
-                      <p className="text-sm">Axis: {formatDeaths(battle.deaths.military.axis)}</p>
-                      <p className="text-sm font-medium mt-1">
-                        Total: {formatDeaths(battle.deaths.military.allies + battle.deaths.military.axis)}
-                      </p>
-                    </>
-                  ) : (
-                    <>
-                      <h4 className="font-semibold">Civilian Deaths</h4>
-                      <p className="text-sm font-medium">
-                        Total: {formatDeaths(battle.deaths.civilian)}
-                      </p>
-                    </>
-                  )}
-                </div>
-              </div>
-            </Popup>
-          </Marker>
+              </Popup>
+            </Marker>
+          )
         ))}
       </MapContainer>
     </div>
