@@ -1426,17 +1426,6 @@ export const battles: Battle[] = [
   }
 ]
 
-// Calculate annual death totals
-export const yearlyDeaths: YearlyDeaths[] = [
-  { year: 1939, military: 122736, civilian: 150000, total: 272736 },
-  { year: 1940, military: 134228, civilian: 164286, total: 298514 },
-  { year: 1941, military: 2033921, civilian: 155025, total: 2188946 },
-  { year: 1942, military: 1685852, civilian: 144000, total: 1839852 },
-  { year: 1943, military: 994013, civilian: 36000, total: 1030013 },
-  { year: 1944, military: 184203, civilian: 54100, total: 238303 },
-  { year: 1945, military: 214008, civilian: 282058, total: 496066 }
-];
-
 // Countries data for filtering
 export const countries = [
   "All Countries",

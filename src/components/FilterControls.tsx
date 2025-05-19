@@ -58,6 +58,7 @@ const FilterControls = ({ onFilterChange, deathType, onDeathTypeChange }: Filter
             <Select 
               value={filters.side} 
               onValueChange={(value) => handleFilterChange('side', value)}
+              disabled={deathType === 'civilian'}
             >
               <SelectTrigger id="side-filter" className="w-[180px]">
                 <SelectValue placeholder="Filter by side" />

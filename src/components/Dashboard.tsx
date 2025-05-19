@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react";
-import { battles, yearlyDeaths } from "@/data/wwiiData";
+import { battles } from "@/data/wwiiData";
 import MapComponent from "./MapComponent";
 import FilterControls, { FilterState } from "./FilterControls";
 import TimelineChart from "./TimelineChart";
@@ -47,6 +47,28 @@ const Dashboard = () => {
     });
   }, [filters]);
 
+  const yearlyCasualties = useMemo(() => {
+    const deathsByYear: { [year: number]: { allies: number; axis: number; civilian: number; total: number } } = {};
+
+    // Initialize all years from 1939 to 1945 with zero deaths
+    for (let year = 1939; year <= 1945; year++) {
+      deathsByYear[year] = { allies: 0, axis: 0, civilian: 0, total: 0 };
+    }
+
+    filteredBattles.forEach(battle => {
+      if (deathsByYear[battle.year]) {
+        deathsByYear[battle.year].allies += battle.deaths.military.allies;
+        deathsByYear[battle.year].axis += battle.deaths.military.axis;
+        deathsByYear[battle.year].civilian += battle.deaths.civilian;
+        deathsByYear[battle.year].total += battle.deaths.military.allies + battle.deaths.military.axis + battle.deaths.civilian;
+      }
+    });
+
+    return Object.keys(deathsByYear)
+      .map(year => ({ year: parseInt(year), ...deathsByYear[parseInt(year)] }))
+      .sort((a, b) => a.year - b.year);
+  }, [filteredBattles]);
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="text-center mb-8">
@@ -68,16 +90,9 @@ const Dashboard = () => {
       />
 
       <TimelineChart 
-        data={yearlyDeaths} 
+        data={yearlyCasualties} 
         deathType={panelChartDeathType} 
       />
-
-      <footer className="mt-8 text-center text-sm text-gray-500">
-        <p>Note: This visualization uses mock sample data for educational purposes.</p>
-        <p className="mt-1">
-          Data represents a selected subset of major battles and approximate casualty figures.
-        </p>
-      </footer>
     </div>
   );
 };

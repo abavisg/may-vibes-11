@@ -62,7 +62,9 @@ const MapComponent = ({ battles, deathType }: MapComponentProps) => {
         style={{ height: "100%", width: "100%" }}
       >
         <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+          // @ts-ignore
+          attribution='&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenStreetMap</a> contributors'
         />
         <MapCenter center={center} zoom={zoom} />
         
