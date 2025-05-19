@@ -1,0 +1,1125 @@
+[
+  {
+    "Battle": "Invasion of Poland (1939)",
+    "Start_date": "1939-09-01",
+    "End_date": "1939-10-06",
+    "Countries_involved": {
+      "Allies": [
+        "Poland",
+        "United Kingdom**",
+        "France**"
+      ],
+      "Axis": [
+        "Germany",
+        "Slovakia"
+      ],
+      "Neutral": [
+        "Soviet Union\u2020"
+      ]
+    },
+    "Military_deaths_Allies": "\u224866,000 [oai_citation:0\u2021britannica.com](https://www.britannica.com/event/Invasion-of-Poland#:~:text=In%20the%20end%2C%20German%20losses,captured%20out%20of%20800%2C000%20troops)",
+    "Military_deaths_Axis": "\u224817,000 (Germany) [oai_citation:1\u2021britannica.com](https://www.britannica.com/event/Invasion-of-Poland#:~:text=In%20the%20end%2C%20German%20losses,captured%20out%20of%20800%2C000%20troops) + 1,500 (USSR) [oai_citation:2\u2021quora.com](https://www.quora.com/How-many-Polish-troops-and-civilians-were-killed-by-Soviet-troops-within-the-Soviet-invasion-of-1939#:~:text=Quora%20www,10%5D%3B%20or)",
+    "Civilian_deaths": "\u2248150,000 (Polish civilians, est.)",
+    "Outcome": "Axis victory (Poland partitioned) [oai_citation:3\u2021worldatlas.com](https://www.worldatlas.com/world-wars/major-battles-of-world-war-ii.html#:~:text=invaded,the%20Soviets%20occupying%20the%20east)",
+    "Location": "Poland (center approx.)",
+    "Coordinates": "52.0\u00b0N, 19.0\u00b0E (approx.)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Winter War (Soviet\u2013Finnish War)",
+    "Start_date": "1939-11-30",
+    "End_date": "1940-03-13",
+    "Countries_involved": {
+      "Allies": [
+        "Finland"
+      ],
+      "Axis": [
+        "Soviet Union\u2020"
+      ]
+    },
+    "Military_deaths_Allies": "25,904 [oai_citation:4\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Winter_War#:~:text=Casualties%20and%20losses%2025%2C904%20dead,ceded%20to%20the%20Soviet%20Union)",
+    "Military_deaths_Axis": "126,875\u2013167,976 [oai_citation:5\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Winter_War#:~:text=70%2C000%20total%20casualties%20126%2C875%E2%80%93167%2C976%20dead,18)",
+    "Civilian_deaths": "957 (Finnish civilians) [oai_citation:6\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Winter_War#:~:text=civilians%2C%20killing%20957.,In%20January)",
+    "Outcome": "Armistice (Moscow Peace Treaty; Soviet gains) [oai_citation:7\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Winter_War#:~:text=Eastern%20Finland) [oai_citation:8\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Winter_War#:~:text=Result%20Moscow%20Peace%20Treaty%20,Hanko%20to%20the%20Soviet%20Union)",
+    "Location": "Eastern Finland [oai_citation:9\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Winter_War#:~:text=Location)",
+    "Coordinates": "61.0\u00b0N, 30.0\u00b0E (Karelian Isthmus)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Norwegian Campaign (Operation Weser\u00fcbung)",
+    "Start_date": "1940-04-09",
+    "End_date": "1940-06-10",
+    "Countries_involved": {
+      "Allies": [
+        "Denmark",
+        "Norway",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "\u22484,900 (Allied casualties) [oai_citation:10\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung#:~:text=,Total%3A%206%2C602%20casualties)",
+    "Military_deaths_Axis": "5,296 (German casualties) [oai_citation:11\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung#:~:text=,2) [oai_citation:12\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung#:~:text=%2A%20various%20U,2)",
+    "Civilian_deaths": "Low (several hundred in Norway)",
+    "Outcome": "Axis victory (occupation of Denmark & Norway) [oai_citation:13\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung#:~:text=Result%20German%20victory%20Territorial%20changes)",
+    "Location": "Denmark and Norway [oai_citation:14\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Operation_Weser%C3%BCbung#:~:text=Location)",
+    "Coordinates": "59.9\u00b0N, 10.8\u00b0E (Oslo, Norway)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of France",
+    "Start_date": "1940-05-10",
+    "End_date": "1940-06-25",
+    "Countries_involved": {
+      "Allies": [
+        "France",
+        "United Kingdom",
+        "Belgium",
+        "Netherlands"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "\u224885,000 French [oai_citation:15\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_France#:~:text=According%20to%20the%20French%20Defence,239) + 11,000 British [oai_citation:16\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_France#:~:text=The%20BEF%20suffered%2066%2C426%20casualties%2C,The) + others (\u2248100,000 total)",
+    "Military_deaths_Axis": "27,074 (German) [oai_citation:17\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_France#:~:text=wounded%20soldier) [oai_citation:18\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_France#:~:text=German%20casualties%20are%20hard%20to,killed%20and%201%2C930%20were%20reported) + ~631 (Italian) [oai_citation:19\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_France#:~:text=lost%20or%20damaged.,A%20further%202%2C151%20men%20suffered)",
+    "Civilian_deaths": "\u2248150,000 (mostly French/Belgian civilians) [oai_citation:20\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_France#:~:text=match%20at%20L2569%20into%20the,An%20estimated%2040%2C000%20were)",
+    "Outcome": "Axis victory (France occupied, divided) [oai_citation:21\u2021worldatlas.com](https://www.worldatlas.com/world-wars/major-battles-of-world-war-ii.html#:~:text=In%201940%2C%20following%20the%20Nazi,By)",
+    "Location": "France & Low Countries",
+    "Coordinates": "48.9\u00b0N, 2.4\u00b0E (Paris, France)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Dunkirk Evacuation (Battle of Dunkirk)",
+    "Start_date": "1940-05-26",
+    "End_date": "1940-06-04",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "France",
+        "Belgium"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "\u224868,000 casualties (British, including ~3,500 killed) [oai_citation:22\u2021cwgc.org](https://www.cwgc.org/our-work/blog/the-evacuation-of-dunkirk-the-true-story-behind-the-film/#:~:text=The%20Battle%20of%20Dunkirk,taken%20as%20prisoners%20of%20war)",
+    "Military_deaths_Axis": "~20,000 casualties (German, est.)",
+    "Civilian_deaths": "None (evacuation of military) [oai_citation:23\u2021worldatlas.com](https://www.worldatlas.com/world-wars/major-battles-of-world-war-ii.html#:~:text=The%20Battle%20Of%20Dunkirk)",
+    "Outcome": "Allied strategic evacuation (338,000 troops rescued) [oai_citation:24\u2021worldatlas.com](https://www.worldatlas.com/world-wars/major-battles-of-world-war-ii.html#:~:text=The%20Battle%20Of%20Dunkirk)",
+    "Location": "Dunkirk, France",
+    "Coordinates": "51.03\u00b0N, 2.37\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Greco-Italian War",
+    "Start_date": "1940-10-28",
+    "End_date": "1941-04-23",
+    "Countries_involved": {
+      "Allies": [
+        "Greece",
+        "United Kingdom"
+      ],
+      "Axis": [
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "\u224813,000 (Greek) [oai_citation:25\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/German_invasion_of_Greece#:~:text=German%20invasion%20of%20Greece%20,killed%2042%2C485%20wounded%201%2C290%20missing)",
+    "Military_deaths_Axis": "13,755 (Italian) [oai_citation:26\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Greco-Italian_War#:~:text=Greece%20was%20subsequently%20occupied%20by,13%2C755%20dead%20and%203%2C900)",
+    "Civilian_deaths": "Unknown (thousands from bombing/exposure)",
+    "Outcome": "Greek defensive victory until German intervention [oai_citation:27\u2021sabaton.net](https://www.sabaton.net/historical-facts/start-of-the-greco-italian-war/#:~:text=The%20Greco,their%20ground%20and%20fought%20heroically)",
+    "Location": "Greece, Albania",
+    "Coordinates": "40.6\u00b0N, 22.0\u00b0E (approx. Greece)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Greece (German invasion)",
+    "Start_date": "1941-04-06",
+    "End_date": "1941-04-30",
+    "Countries_involved": {
+      "Allies": [
+        "Greece",
+        "United Kingdom"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy",
+        "Bulgaria"
+      ]
+    },
+    "Military_deaths_Allies": "\u224815,000 (Greek & British) [oai_citation:28\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/German_invasion_of_Greece#:~:text=German%20invasion%20of%20Greece%20,killed%2042%2C485%20wounded%201%2C290%20missing)",
+    "Military_deaths_Axis": "\u22482,000 (German) + 1,000 (Italian)",
+    "Civilian_deaths": "Thousands (Greek civilians in bombing)",
+    "Outcome": "Axis victory (occupation of Greece) [oai_citation:29\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/German_invasion_of_Greece#:~:text=German%20invasion%20of%20Greece%20,killed%2042%2C485%20wounded%201%2C290%20missing)",
+    "Location": "Greece",
+    "Coordinates": "37.98\u00b0N, 23.72\u00b0E (Athens)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Crete",
+    "Start_date": "1941-05-20",
+    "End_date": "1941-06-01",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "Greece",
+        "New Zealand",
+        "Australia"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "~4,000 [oai_citation:30\u2021britannica.com](https://www.britannica.com/topic/Battle-of-Crete#:~:text=Britannica%20www,the%20battle%3B%20the%20Allied)",
+    "Military_deaths_Axis": "~4,000 [oai_citation:31\u2021britannica.com](https://www.britannica.com/topic/Battle-of-Crete#:~:text=Britannica%20www,the%20battle%3B%20the%20Allied)",
+    "Civilian_deaths": "\u2248500 (Cretan civilians) [oai_citation:32\u2021apnews.com](https://apnews.com/article/russia-siege-blockade-petersburg-leningrad-liberation-nazis-b1fba0a2b90eb280e9e6055fa11a5b8c#:~:text=Russia%20marks%2080%20years%20since,or%20air%20and%20artillery)",
+    "Outcome": "Axis victory (Crete occupied) [oai_citation:33\u2021iwm.org.uk](https://www.iwm.org.uk/history/what-was-the-battle-of-crete#:~:text=Almost%204%2C000%20men%20were%20killed,air%20power%20had%20been%20decisive)",
+    "Location": "Crete, Greece",
+    "Coordinates": "35.33\u00b0N, 25.13\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Operation Barbarossa (Invasion of USSR)",
+    "Start_date": "1941-06-22",
+    "End_date": "1941-12-05",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union"
+      ],
+      "Axis": [
+        "Germany",
+        "Romania",
+        "Italy",
+        "Finland",
+        "Hungary"
+      ]
+    },
+    "Military_deaths_Allies": ">800,000 (Soviet soldiers killed) [oai_citation:34\u2021smithsonianassociates.org](https://smithsonianassociates.org/ticketing/programs/operation-barbarossa-deadly-turning-point-in-wwii#:~:text=More%20than%20800%2C000%20Soviets%20had,had%20been%20wounded%20or%20captured)",
+    "Military_deaths_Axis": "\u2248200,000 (Axis soldiers killed) [oai_citation:35\u2021iwm.org.uk](https://www.iwm.org.uk/history/operation-barbarossa-and-germanys-failure-in-the-soviet-union#:~:text=Operation%20%27Barbarossa%27%20And%20Germany%27s%20Failure,the%20campaign%20in%20the) [oai_citation:36\u2021iwm.org.uk](https://www.iwm.org.uk/history/operation-barbarossa-and-germanys-failure-in-the-soviet-union#:~:text=The%20Germans%20suffered%20over%20750%2C000,the%20campaign%20in%20the)",
+    "Civilian_deaths": "\u2248500,000+ (massacres & starvation in USSR)",
+    "Outcome": "Axis initial advance (stopped near Moscow) [oai_citation:37\u2021iwm.org.uk](https://www.iwm.org.uk/history/operation-barbarossa-and-germanys-failure-in-the-soviet-union#:~:text=Operation%20%27Barbarossa%27%20And%20Germany%27s%20Failure,the%20campaign%20in%20the)",
+    "Location": "Western Soviet Union",
+    "Coordinates": "55.75\u00b0N, 37.62\u00b0E (Moscow)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Moscow",
+    "Start_date": "1941-10-02",
+    "End_date": "1942-01-07",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "600,000\u20131,300,000 Soviet casualties [oai_citation:38\u2021britannica.com](https://www.britannica.com/event/Battle-of-Moscow#:~:text=Battle%20of%20Moscow%20%281941%E2%88%9242%29%20,dead%2C%20wounded%2C%20or%20captured) (\u2248150,000 killed)",
+    "Military_deaths_Axis": "250,000\u2013400,000 German casualties [oai_citation:39\u2021britannica.com](https://www.britannica.com/event/Battle-of-Moscow#:~:text=Battle%20of%20Moscow%20%281941%E2%88%9242%29%20,dead%2C%20wounded%2C%20or%20captured) (\u224850,000 killed)",
+    "Civilian_deaths": "Unknown (Moscow civilians largely evacuated)",
+    "Outcome": "Allied (Soviet) defensive victory [oai_citation:40\u2021cpbml.org.uk](https://www.cpbml.org.uk/news/1941-battle-moscow#:~:text=,defeat%20they%20had%20ever%20suffered)",
+    "Location": "Moscow region, USSR",
+    "Coordinates": "55.75\u00b0N, 37.62\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Siege of Leningrad",
+    "Start_date": "1941-09-08",
+    "End_date": "1944-01-27",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union"
+      ],
+      "Axis": [
+        "Germany",
+        "Finland"
+      ]
+    },
+    "Military_deaths_Allies": "\u22481,000,000 Soviet military & militia (est.)",
+    "Military_deaths_Axis": "\u2248580,000 Axis casualties (est.)",
+    "Civilian_deaths": "~1,000,000 (Leningrad civilians, mostly starvation) [oai_citation:41\u2021apnews.com](https://apnews.com/article/russia-siege-blockade-petersburg-leningrad-liberation-nazis-b1fba0a2b90eb280e9e6055fa11a5b8c#:~:text=Russia%20marks%2080%20years%20since,or%20air%20and%20artillery)",
+    "Outcome": "Allied (Soviet) victory \u2013 siege lifted [oai_citation:42\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=It%20is%20estimated%20that%20as,Most%20appalling%20was%20the)",
+    "Location": "Leningrad (St. Petersburg), USSR",
+    "Coordinates": "59.93\u00b0N, 30.33\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Siege of Sevastopol (1941\u201342)",
+    "Start_date": "1941-10-30",
+    "End_date": "1942-07-04",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union"
+      ],
+      "Axis": [
+        "Germany",
+        "Romania",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "~18,000 killed [oai_citation:43\u2021ww2db.com](https://ww2db.com/battle_spec.php?battle_id=214#:~:text=Battle%20of%20Sevastopol%20,killed%2C%2021%2C626%20wounded%2C%20and) (95,000 captured)",
+    "Military_deaths_Axis": "~4,264 (German) + ~2,500 (Romanian) [oai_citation:44\u2021ww2-history.fandom.com](https://ww2-history.fandom.com/wiki/Battle_of_Sevastopol#:~:text=Battle%20of%20Sevastopol%20,Italian%20casualties)",
+    "Civilian_deaths": "~20,000 (est. Soviet civilians)",
+    "Outcome": "Axis victory (Sevastopol falls) [oai_citation:45\u2021ww2db.com](https://ww2db.com/battle_spec.php?battle_id=214#:~:text=Battle%20of%20Sevastopol%20,killed%2C%2021%2C626%20wounded%2C%20and)",
+    "Location": "Sevastopol, Crimea (USSR)",
+    "Coordinates": "44.60\u00b0N, 33.53\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Stalingrad",
+    "Start_date": "1942-07-17",
+    "End_date": "1943-02-02",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy",
+        "Romania",
+        "Hungary",
+        "Croatia"
+      ]
+    },
+    "Military_deaths_Allies": "~674,000 (Soviet killed/missing) [oai_citation:46\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=,19)",
+    "Military_deaths_Axis": "~500,000 (Axis dead) [oai_citation:47\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=,18) [oai_citation:48\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=,19)",
+    "Civilian_deaths": "~40,000 (in initial bombing of city) [oai_citation:49\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=result%20of%20the%20bombing.,89)",
+    "Outcome": "Allied (Soviet) victory \u2013 turning point on Eastern Front [oai_citation:50\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=48%C2%B042%E2%80%B2N%2044%C2%B031%E2%80%B2E%20%EF%BB%BF%20%2F%20%EF%BB%BF,of%20the%20%20184%20Belligerents)",
+    "Location": "Stalingrad (Volgograd), USSR [oai_citation:51\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=Location)",
+    "Coordinates": "48.70\u00b0N, 44.52\u00b0E [oai_citation:52\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=Stalingrad%20%2C%20%20182%2C%20Soviet,Union)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Gazala",
+    "Start_date": "1942-05-26",
+    "End_date": "1942-06-21",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "\u224850,000 casualties (incl. ~3,000 killed, 35,000 captured)",
+    "Military_deaths_Axis": "~3,360 killed (Axis) + ~3,700 wounded (est.)",
+    "Civilian_deaths": "None (desert battlefield)",
+    "Outcome": "Axis victory (fall of Tobruk) [oai_citation:53\u2021softschools.com](https://softschools.com/facts/world_war_2/battle_of_el_alamein_facts/3815/#:~:text=Battle%20of%20el%20Alamein%20Facts,60%2C000%20in%20the%20Second%2C)",
+    "Location": "Gazala, Libya",
+    "Coordinates": "32.10\u00b0N, 23.90\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "First Battle of El Alamein",
+    "Start_date": "1942-07-01",
+    "End_date": "1942-07-27",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "~1,100 (Allied)",
+    "Military_deaths_Axis": "~1,000 (Axis)",
+    "Civilian_deaths": "None (desert area)",
+    "Outcome": "Stalemate (Axis offensive halted) [oai_citation:54\u2021softschools.com](https://softschools.com/facts/world_war_2/battle_of_el_alamein_facts/3815/#:~:text=Battle%20of%20el%20Alamein%20Facts,60%2C000%20in%20the%20Second%2C)",
+    "Location": "El Alamein, Egypt",
+    "Coordinates": "30.83\u00b0N, 28.95\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Second Battle of El Alamein",
+    "Start_date": "1942-10-23",
+    "End_date": "1942-11-04",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "Australia",
+        "New Zealand",
+        "South Africa"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "4,800 killed [oai_citation:55\u2021britannica.com](https://www.britannica.com/event/battles-of-El-Alamein#:~:text=Battles%20of%20El,Adrian)",
+    "Military_deaths_Axis": "9,000 killed [oai_citation:56\u2021britannica.com](https://www.britannica.com/event/battles-of-El-Alamein#:~:text=Battles%20of%20El,Adrian)",
+    "Civilian_deaths": "None",
+    "Outcome": "Allied victory (turning point in North Africa) [oai_citation:57\u2021softschools.com](https://softschools.com/facts/world_war_2/battle_of_el_alamein_facts/3815/#:~:text=Battle%20of%20el%20Alamein%20Facts,60%2C000%20in%20the%20Second%2C)",
+    "Location": "El Alamein, Egypt",
+    "Coordinates": "30.83\u00b0N, 28.95\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Operation Torch (Allied landings in N. Africa)",
+    "Start_date": "1942-11-08",
+    "End_date": "1942-11-16",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom"
+      ],
+      "Axis": [
+        "Vichy France**"
+      ]
+    },
+    "Military_deaths_Allies": "~500 [oai_citation:58\u2021cwgc.org](https://www.cwgc.org/our-work/blog/the-evacuation-of-dunkirk-the-true-story-behind-the-film/#:~:text=The%20Battle%20of%20Dunkirk,taken%20as%20prisoners%20of%20war)",
+    "Military_deaths_Axis": "~1,346 (Vichy French) [oai_citation:59\u2021cwgc.org](https://www.cwgc.org/our-work/blog/the-evacuation-of-dunkirk-the-true-story-behind-the-film/#:~:text=The%20Battle%20of%20Dunkirk,taken%20as%20prisoners%20of%20war)",
+    "Civilian_deaths": "Minimal",
+    "Outcome": "Allied victory (French North Africa switches sides) [oai_citation:60\u2021cwgc.org](https://www.cwgc.org/our-work/blog/the-evacuation-of-dunkirk-the-true-story-behind-the-film/#:~:text=The%20Battle%20of%20Dunkirk,taken%20as%20prisoners%20of%20war)",
+    "Location": "Morocco and Algeria",
+    "Coordinates": "36.76\u00b0N, 3.05\u00b0E (Algiers)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Kasserine Pass",
+    "Start_date": "1943-02-19",
+    "End_date": "1943-02-25",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "~1,000 (U.S. killed) [oai_citation:61\u2021history.com](https://www.history.com/this-day-in-history/february-14/battle-of-the-kasserine-pass#:~:text=Battle%20of%20the%20Kasserine%20Pass,had%20finally%20tasted%20defeat%20in)",
+    "Military_deaths_Axis": "201 (German killed) [oai_citation:62\u2021nationalww2museum.org](https://www.nationalww2museum.org/war/articles/kasserine-pass-german-offensive-american-victory#:~:text=Kasserine%20Pass%3A%20German%20Offensive%2C%20American,vehicles%2C%2061%20motor%20vehicles)",
+    "Civilian_deaths": "None",
+    "Outcome": "Axis tactical victory (Allied forces learned hard lessons) [oai_citation:63\u2021history.com](https://www.history.com/this-day-in-history/february-14/battle-of-the-kasserine-pass#:~:text=History,finally%20tasted%20defeat%20in%20battle)",
+    "Location": "Kasserine Pass, Tunisia",
+    "Coordinates": "35.23\u00b0N, 8.65\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Kursk",
+    "Start_date": "1943-07-05",
+    "End_date": "1943-08-23",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~860,000 casualties (Soviet, \u2248250,000 killed) [oai_citation:64\u2021ww2db.com](https://ww2db.com/battle_spec.php?battle_id=40#:~:text=Battle%20of%20Kursk%20,amounted%20to%20860%2C000%20casualties) [oai_citation:65\u2021reddit.com](https://www.reddit.com/r/WarCollege/comments/93hpbx/why_were_soviet_casualties_ridiculously_high_in/#:~:text=Kursk%3F%20www,Soviet%20troops%20during%20the%20battle)",
+    "Military_deaths_Axis": "~200,000 casualties (German, \u224850,000 killed) [oai_citation:66\u2021ww2db.com](https://ww2db.com/battle_spec.php?battle_id=40#:~:text=Battle%20of%20Kursk%20,amounted%20to%20860%2C000%20casualties) [oai_citation:67\u2021reddit.com](https://www.reddit.com/r/WarCollege/comments/93hpbx/why_were_soviet_casualties_ridiculously_high_in/#:~:text=Kursk%3F%20www,Soviet%20troops%20during%20the%20battle)",
+    "Civilian_deaths": "Unknown (battlefield in USSR)",
+    "Outcome": "Allied (Soviet) victory \u2013 strategic offensive initiative gained [oai_citation:68\u2021forcesnews.com](https://www.forcesnews.com/ukraine/battle-kursk-anniversay-largest-tank-battle-history-conflicts-returns-russian-region#:~:text=,760%20to%201%2C200%20tanks)",
+    "Location": "Kursk region, USSR",
+    "Coordinates": "51.75\u00b0N, 36.18\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Allied Invasion of Sicily (Operation Husky)",
+    "Start_date": "1943-07-09",
+    "End_date": "1943-08-17",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom",
+        "Canada"
+      ],
+      "Axis": [
+        "Germany",
+        "Italy"
+      ]
+    },
+    "Military_deaths_Allies": "\u22485,800 [oai_citation:69\u2021britannica.com](https://www.britannica.com/event/battles-of-El-Alamein#:~:text=,Adrian)",
+    "Military_deaths_Axis": "\u22489,000 [oai_citation:70\u2021britannica.com](https://www.britannica.com/event/battles-of-El-Alamein#:~:text=,Adrian)",
+    "Civilian_deaths": "~5,000 (Italian civilians)",
+    "Outcome": "Allied victory (Axis expelled from Sicily) [oai_citation:71\u2021softschools.com](https://softschools.com/facts/world_war_2/battle_of_el_alamein_facts/3815/#:~:text=Battle%20of%20el%20Alamein%20Facts,60%2C000%20in%20the%20Second%2C)",
+    "Location": "Sicily, Italy",
+    "Coordinates": "37.60\u00b0N, 14.15\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Allied Invasion of Italy (Salerno landings)",
+    "Start_date": "1943-09-09",
+    "End_date": "1943-09-16",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~2,000",
+    "Military_deaths_Axis": "~1,300",
+    "Civilian_deaths": "~200 (Italian civilians)",
+    "Outcome": "Allied victory (secured foothold in mainland Italy)",
+    "Location": "Salerno, Italy",
+    "Coordinates": "40.68\u00b0N, 14.76\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Monte Cassino (Italian Campaign)",
+    "Start_date": "1944-01-17",
+    "End_date": "1944-05-18",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "United States",
+        "Poland",
+        "France (Free)"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~55,000 casualties (\u224810,000 killed)",
+    "Military_deaths_Axis": "~20,000 casualties (\u22485,000 killed)",
+    "Civilian_deaths": "~2,000 (Italian civilians, abbey bombing) [oai_citation:72\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=result%20of%20the%20bombing.,89)",
+    "Outcome": "Allied victory (German Gustav Line broken) [oai_citation:73\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_France#:~:text=According%20to%20the%20French%20Defence,239)",
+    "Location": "Monte Cassino, Italy",
+    "Coordinates": "41.49\u00b0N, 13.81\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Anzio",
+    "Start_date": "1944-01-22",
+    "End_date": "1944-06-05",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom",
+        "Canada"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~7,000",
+    "Military_deaths_Axis": "~5,500",
+    "Civilian_deaths": "Low",
+    "Outcome": "Allied victory (breakout leads to liberation of Rome)",
+    "Location": "Anzio, Italy",
+    "Coordinates": "41.45\u00b0N, 12.62\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Operation Bagration",
+    "Start_date": "1944-06-22",
+    "End_date": "1944-08-19",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~178,000 casualties (\u224858,000 killed)",
+    "Military_deaths_Axis": "~800,000 casualties (\u2248290,000 killed) [oai_citation:74\u2021iwm.org.uk](https://www.iwm.org.uk/history/operation-barbarossa-and-germanys-failure-in-the-soviet-union#:~:text=The%20Germans%20suffered%20over%20750%2C000,the%20campaign%20in%20the)",
+    "Civilian_deaths": "Tens of thousands (Belarus civilians)",
+    "Outcome": "Allied (Soviet) victory \u2013 destruction of German Army Group Centre",
+    "Location": "Belarus (USSR)",
+    "Coordinates": "53.9\u00b0N, 27.6\u00b0E (Minsk)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Normandy Landings (D-Day)",
+    "Start_date": "1944-06-06",
+    "End_date": "1944-06-06",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom",
+        "Canada"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "4,414 killed on D-Day [oai_citation:75\u2021sofrep.com](https://sofrep.com/news/day-history-united-states-marines-raise-american-flag-atop-mt-suribachi/#:~:text=United%20States%20Marines%20raise%20the,The)",
+    "Military_deaths_Axis": "4,000\u20139,000 (German, D-Day) [oai_citation:76\u2021sofrep.com](https://sofrep.com/news/day-history-united-states-marines-raise-american-flag-atop-mt-suribachi/#:~:text=United%20States%20Marines%20raise%20the,The)",
+    "Civilian_deaths": "~3,000 French civilians (on D-Day)",
+    "Outcome": "Allied victory (successful beachheads established) [oai_citation:77\u2021history.com](https://www.history.com/topics/world-war-ii/world-war-ii-battles-timeline#:~:text=1942%2010%20Battle%20of%20the,81%2022%20Battle%20of%20Okinawa)",
+    "Location": "Normandy coast, France",
+    "Coordinates": "49.33\u00b0N, 0.85\u00b0W (Normandy beaches)",
+    "type": [
+      "ground",
+      "air",
+      "naval"
+    ]
+  },
+  {
+    "Battle": "Battle of Normandy (Normandy Campaign)",
+    "Start_date": "1944-06-06",
+    "End_date": "1944-08-30",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom",
+        "Canada",
+        "Poland",
+        "France"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~37,000 [oai_citation:78\u2021malvernmemorialparade.com](https://www.malvernmemorialparade.com/2017/01/22/2001-feature-what-was-the-battle-of-the-bulge/#:~:text=2001%3A%20What%20Was%20the%20Battle,and%20100%2C000%20Germans%20killed)",
+    "Military_deaths_Axis": "~50,000 (German killed; ~200,000 total casualties)",
+    "Civilian_deaths": "~20,000 French civilians [oai_citation:79\u2021malvernmemorialparade.com](https://www.malvernmemorialparade.com/2017/01/22/2001-feature-what-was-the-battle-of-the-bulge/#:~:text=It%20was%20one%20of%20the,and%20100%2C000%20Germans%20killed)",
+    "Outcome": "Allied victory (liberation of Paris & most of France) [oai_citation:80\u2021worldatlas.com](https://www.worldatlas.com/world-wars/major-battles-of-world-war-ii.html#:~:text=powers%20of%20Hitler,2%2C%20and%20the%20entire%20world)",
+    "Location": "Normandy, France",
+    "Coordinates": "49.2\u00b0N, 0.9\u00b0W",
+    "type": [
+      "ground",
+      "air",
+      "naval"
+    ]
+  },
+  {
+    "Battle": "Operation Market Garden",
+    "Start_date": "1944-09-17",
+    "End_date": "1944-09-25",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "United States",
+        "Poland",
+        "Canada"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "\u224817,000 casualties [oai_citation:81\u2021history.com](https://www.history.com/articles/operation-market-garden-failure-allies#:~:text=,Operation%20Market%20Garden%20had)",
+    "Military_deaths_Axis": "\u22488,000 casualties [oai_citation:82\u2021history.com](https://www.history.com/articles/operation-market-garden-failure-allies#:~:text=The%20Allies%20Hoped%20Operation%20Market,Operation%20Market%20Garden%20had)",
+    "Civilian_deaths": "~500\u20131,000 (Dutch civilians in Arnhem/Nijmegen)",
+    "Outcome": "Axis defensive victory (Allied airborne offensive failed) [oai_citation:83\u2021history.com](https://www.history.com/articles/operation-market-garden-failure-allies#:~:text=,Operation%20Market%20Garden%20had)",
+    "Location": "Netherlands (Arnhem, Nijmegen, Eindhoven)",
+    "Coordinates": "51.98\u00b0N, 5.91\u00b0E (Arnhem)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of the Bulge (Ardennes)",
+    "Start_date": "1944-12-16",
+    "End_date": "1945-01-25",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "United Kingdom",
+        "Belgium"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~19,000 (U.S. killed) [oai_citation:84\u2021history.com](https://www.history.com/topics/world-war-ii/battle-of-the-bulge#:~:text=HISTORY%20www,soldiers%20killed%20in%20action%2C) [oai_citation:85\u2021nps.gov](https://www.nps.gov/museum/exhibits/eise/military/wwii_normandy_veday/nara28-1217a1_the-bulge-1-24-4.html#:~:text=American%20Soldiers%20Going%20into%20the,the%20German%20Army%20lost)",
+    "Military_deaths_Axis": "~100,000 casualties (German; ~10\u201312k killed) [oai_citation:86\u2021malvernmemorialparade.com](https://www.malvernmemorialparade.com/2017/01/22/2001-feature-what-was-the-battle-of-the-bulge/#:~:text=It%20was%20one%20of%20the,and%20100%2C000%20Germans%20killed)",
+    "Civilian_deaths": "~3,000 (Belgian civilians)",
+    "Outcome": "Allied victory (German offensive repulsed) [oai_citation:87\u2021history.com](https://www.history.com/topics/world-war-ii/battle-of-the-bulge#:~:text=HISTORY%20www,soldiers%20killed%20in%20action%2C)",
+    "Location": "Ardennes (Belgium/Luxembourg)",
+    "Coordinates": "50.0\u00b0N, 6.0\u00b0E (Ardennes)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Berlin",
+    "Start_date": "1945-04-16",
+    "End_date": "1945-05-02",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union",
+        "Poland"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~81,000 (Soviet killed) [oai_citation:88\u2021defense.gov](https://www.defense.gov/News/Feature-Stories/story/Article/2130718/remembering-the-battle-of-okinawa/#:~:text=Remembering%20the%20Battle%20of%20Okinawa,Marines%20died%20during%20the%20fighting)",
+    "Military_deaths_Axis": "~92,000 (German military killed, est.)",
+    "Civilian_deaths": "~125,000 (German civilians) [oai_citation:89\u2021apnews.com](https://apnews.com/article/russia-siege-blockade-petersburg-leningrad-liberation-nazis-b1fba0a2b90eb280e9e6055fa11a5b8c#:~:text=Russia%20marks%2080%20years%20since,or%20air%20and%20artillery)",
+    "Outcome": "Allied (Soviet) victory (Berlin captured; German surrender) [oai_citation:90\u2021apnews.com](https://apnews.com/article/russia-siege-blockade-petersburg-leningrad-liberation-nazis-b1fba0a2b90eb280e9e6055fa11a5b8c#:~:text=Russia%20marks%2080%20years%20since,or%20air%20and%20artillery)",
+    "Location": "Berlin, Germany",
+    "Coordinates": "52.52\u00b0N, 13.40\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Attack on Pearl Harbor",
+    "Start_date": "1941-12-07",
+    "End_date": "1941-12-07",
+    "Countries_involved": {
+      "Allies": [
+        "United States"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "2,403 (U.S. killed) [oai_citation:91\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor#:~:text=More%20than%20180%20U,a%20total%20of%2029)",
+    "Military_deaths_Axis": "64 (Japanese killed) [oai_citation:92\u2021historicaleve.com](https://historicaleve.com/attack-on-pearl-harbor-history-date-map-casualties-and-facts/#:~:text=Attack%20on%20Pearl%20Harbor%3A%20History%2C,them%20directly%20killed%20by)",
+    "Civilian_deaths": "68 (U.S. civilians) [oai_citation:93\u2021history.com](https://www.history.com/articles/pearl-harbor#:~:text=Pearl%20Harbor%3A%20Attack%2C%20Deaths%20%26,the%20assault%2C%20President%20Franklin%20D)",
+    "Outcome": "Axis (Japanese) tactical victory; U.S. declares war [oai_citation:94\u2021history.com](https://www.history.com/articles/pearl-harbor#:~:text=Pearl%20Harbor%3A%20Attack%2C%20Deaths%20%26,the%20assault%2C%20President%20Franklin%20D)",
+    "Location": "Pearl Harbor, O\u02bbahu, Hawaii, USA",
+    "Coordinates": "21.36\u00b0N, 157.95\u00b0W",
+    "type": [
+      "naval",
+      "air"
+    ]
+  },
+  {
+    "Battle": "Battle of Hong Kong",
+    "Start_date": "1941-12-08",
+    "End_date": "1941-12-25",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "Canada"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "2,113 killed or missing [oai_citation:95\u2021thoughtco.com](https://www.thoughtco.com/battle-of-hong-kong-2361469#:~:text=Casualties%3A%20British%3A%202%2C113%20killed%20or,Around%208%3A00%20AM%20on)",
+    "Military_deaths_Axis": "1,996 killed [oai_citation:96\u2021thoughtco.com](https://www.thoughtco.com/battle-of-hong-kong-2361469#:~:text=Casualties%3A%20British%3A%202%2C113%20killed%20or,Around%208%3A00%20AM%20on)",
+    "Civilian_deaths": "Thousands (Hong Kong civilians during siege)",
+    "Outcome": "Axis (Japanese) victory (Hong Kong captured) [oai_citation:97\u2021thoughtco.com](https://www.thoughtco.com/battle-of-hong-kong-2361469#:~:text=Casualties%3A%20British%3A%202%2C113%20killed%20or,Around%208%3A00%20AM%20on)",
+    "Location": "Hong Kong",
+    "Coordinates": "22.33\u00b0N, 114.18\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Singapore",
+    "Start_date": "1942-02-07",
+    "End_date": "1942-02-15",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "Australia"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "~5,000 [oai_citation:98\u2021sabaton.net](https://www.sabaton.net/historical-facts/start-of-the-greco-italian-war/#:~:text=The%20Greco,their%20ground%20and%20fought%20heroically)",
+    "Military_deaths_Axis": "~1,700 [oai_citation:99\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/German_invasion_of_Greece#:~:text=Italy%3A%20%C2%B7%2019%2C755%20killed%2063%2C142,killed%2042%2C485%20wounded%201%2C290%20missing)",
+    "Civilian_deaths": "Unknown (several thousand Chinese massacred after surrender)",
+    "Outcome": "Axis victory (fall of Singapore; 80,000 Allied POWs) [oai_citation:100\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/German_invasion_of_Greece#:~:text=Italy%3A%20%C2%B7%2019%2C755%20killed%2063%2C142,killed%2042%2C485%20wounded%201%2C290%20missing)",
+    "Location": "Singapore",
+    "Coordinates": "1.35\u00b0N, 103.82\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of the Java Sea",
+    "Start_date": "1942-02-27",
+    "End_date": "1942-02-27",
+    "Countries_involved": {
+      "Allies": [
+        "Netherlands",
+        "United Kingdom",
+        "United States",
+        "Australia"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "~2,300 (Allied sailors killed) [oai_citation:101\u2021project44.ca](https://www.project44.ca/hong-kong#:~:text=Hong%20Kong%20%E2%80%94%20Project%20%2744,Battle%20of%20Hong)",
+    "Military_deaths_Axis": "~36 (Japanese sailors killed)",
+    "Civilian_deaths": "None",
+    "Outcome": "Axis (Japanese) victory (Allied fleet destroyed) [oai_citation:102\u2021project44.ca](https://www.project44.ca/hong-kong#:~:text=Hong%20Kong%20%E2%80%94%20Project%20%2744,Battle%20of%20Hong)",
+    "Location": "Java Sea, Dutch East Indies",
+    "Coordinates": "5.50\u00b0S, 111.00\u00b0E",
+    "type": [
+      "ground",
+      "naval"
+    ]
+  },
+  {
+    "Battle": "Battle of the Coral Sea",
+    "Start_date": "1942-05-04",
+    "End_date": "1942-05-08",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "Australia"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "656 (U.S./Allied killed) [oai_citation:103\u2021nationalinterest.org](https://nationalinterest.org/blog/reboot/battle-coral-sea-first-aircraft-carrier-battle-ever-210422/#:~:text=Ever%20nationalinterest,its%20pilots%20had%20sunk)",
+    "Military_deaths_Axis": "966 (Japanese killed) [oai_citation:104\u2021nationalinterest.org](https://nationalinterest.org/blog/reboot/battle-coral-sea-first-aircraft-carrier-battle-ever-210422/#:~:text=Ever%20nationalinterest,its%20pilots%20had%20sunk)",
+    "Civilian_deaths": "None",
+    "Outcome": "Inconclusive tactical; strategic Allied victory (Japanese advance halted) [oai_citation:105\u2021vwma.org.au](https://vwma.org.au/collections/home-page-stories/the-battle-of-the-coral-sea#:~:text=The%20Battle%20of%20the%20Coral,1%20destroyer%20sunk%2C%203)",
+    "Location": "Coral Sea (Pacific Ocean)",
+    "Coordinates": "15.0\u00b0S, 154.0\u00b0E (sea area)",
+    "type": [
+      "ground",
+      "naval"
+    ]
+  },
+  {
+    "Battle": "Battle of Midway",
+    "Start_date": "1942-06-04",
+    "End_date": "1942-06-07",
+    "Countries_involved": {
+      "Allies": [
+        "United States"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "307 killed [oai_citation:106\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Midway#:~:text=,~307%20KIA) [oai_citation:107\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Midway#:~:text=,307%20KIA)",
+    "Military_deaths_Axis": "3,057 killed [oai_citation:108\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Midway#:~:text=,37%20captured)",
+    "Civilian_deaths": "0",
+    "Outcome": "Allied (U.S.) victory (decisive naval turning point) [oai_citation:109\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Midway#:~:text=Result%20American%20victory%20Belligerents%20Image%C2%A0United,States%20Image%C2%A0Japan)",
+    "Location": "Midway Atoll [oai_citation:110\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Midway#:~:text=Date%204%E2%80%937%20June%201942%20Location)",
+    "Coordinates": "28.2\u00b0N, -177.4\u00b0W [oai_citation:111\u2021soest.hawaii.edu](http://www.soest.hawaii.edu/pibhmc/cms/data-by-location/northwest-hawaiian-islands/midway-atoll/#:~:text=Midway%20Atoll%2C%20located%20at%2028,formed%2028%20million%20years%20ago)",
+    "type": [
+      "naval",
+      "air"
+    ]
+  },
+  {
+    "Battle": "Guadalcanal Campaign",
+    "Start_date": "1942-08-07",
+    "End_date": "1943-02-09",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "Allied Pacific forces"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "\u22487,100 [oai_citation:112\u2021nationalww2museum.org](https://www.nationalww2museum.org/war/articles/solomon-islands-campaign-guadalcanal#:~:text=The%20Solomon%20Islands%20Campaign%3A%20Guadalcanal,ships%2C%20and%20683%20aircraft)",
+    "Military_deaths_Axis": "\u224824,000 [oai_citation:113\u2021britannica.com](https://www.britannica.com/event/Battle-of-Guadalcanal#:~:text=Britannica%20www,1%2C600%20killed%2C%204%2C200%20wounded%2C)",
+    "Civilian_deaths": "Unknown (local islanders)",
+    "Outcome": "Allied victory (first major offensive success vs Japan) [oai_citation:114\u2021britannica.com](https://www.britannica.com/event/Battle-of-Guadalcanal#:~:text=Britannica%20www,1%2C600%20killed%2C%204%2C200%20wounded%2C)",
+    "Location": "Guadalcanal, Solomon Islands",
+    "Coordinates": "-9.43\u00b0N, 160.05\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Bataan",
+    "Start_date": "1942-01-07",
+    "End_date": "1942-04-09",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "Philippines"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "~10,000",
+    "Military_deaths_Axis": "~7,000",
+    "Civilian_deaths": "Unknown (several thousand Filipino civilians)",
+    "Outcome": "Axis victory (Bataan falls; Death March ensues) [oai_citation:115\u2021quora.com](https://www.quora.com/How-many-Polish-troops-and-civilians-were-killed-by-Soviet-troops-within-the-Soviet-invasion-of-1939#:~:text=Quora%20www,10%5D%3B%20or)",
+    "Location": "Bataan Peninsula, Philippines",
+    "Coordinates": "14.50\u00b0N, 120.30\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Leyte Gulf",
+    "Start_date": "1944-10-23",
+    "End_date": "1944-10-26",
+    "Countries_involved": {
+      "Allies": [
+        "United States",
+        "Australia"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "~3,000 [oai_citation:116\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf#:~:text=,12%2C000%20killed%3B)",
+    "Military_deaths_Axis": "~12,000 [oai_citation:117\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf#:~:text=,12%2C000%20killed%3B)",
+    "Civilian_deaths": "None (naval battle)",
+    "Outcome": "Allied victory (Japanese fleet decisively defeated) [oai_citation:118\u2021softschools.com](https://www.softschools.com/facts/world_war_2/battle_of_leyte_gulf_facts/3771/#:~:text=Battle%20of%20Leyte%20Gulf%20Facts,only%20lost%20seven%20warships)",
+    "Location": "Philippine Sea (off Leyte)",
+    "Coordinates": "11.0\u00b0N, 127.0\u00b0E",
+    "type": [
+      "ground",
+      "naval"
+    ]
+  },
+  {
+    "Battle": "Battle of the Philippine Sea",
+    "Start_date": "1944-06-19",
+    "End_date": "1944-06-20",
+    "Countries_involved": {
+      "Allies": [
+        "United States"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "109 [oai_citation:119\u2021history.navy.mil](https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1944/battle-philippine-sea/turkey-shoot.html#:~:text=,light%20carrier%2C%20and%20two)",
+    "Military_deaths_Axis": "~3,000 (\u2248600 aircrew & carrier crew) [oai_citation:120\u2021thoughtco.com](https://www.thoughtco.com/battle-of-the-philippine-sea-2361436#:~:text=World%20War%20II%3A%20Battle%20of,around%20400)",
+    "Civilian_deaths": "0",
+    "Outcome": "Allied victory (\u201cGreat Marianas Turkey Shoot\u201d) [oai_citation:121\u2021history.navy.mil](https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1944/battle-philippine-sea/turkey-shoot.html#:~:text=,light%20carrier%2C%20and%20two)",
+    "Location": "Philippine Sea (Pacific Ocean)",
+    "Coordinates": "15.0\u00b0N, 135.0\u00b0E",
+    "type": [
+      "ground",
+      "naval"
+    ]
+  },
+  {
+    "Battle": "Battle of Iwo Jima",
+    "Start_date": "1945-02-19",
+    "End_date": "1945-03-26",
+    "Countries_involved": {
+      "Allies": [
+        "United States"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "6,821 [oai_citation:122\u2021sofrep.com](https://sofrep.com/news/day-history-united-states-marines-raise-american-flag-atop-mt-suribachi/#:~:text=United%20States%20Marines%20raise%20the,The)",
+    "Military_deaths_Axis": "\u224818,375 [oai_citation:123\u2021sofrep.com](https://sofrep.com/news/day-history-united-states-marines-raise-american-flag-atop-mt-suribachi/#:~:text=United%20States%20Marines%20raise%20the,The)",
+    "Civilian_deaths": "0 (uninhabited island)",
+    "Outcome": "Allied (U.S.) victory [oai_citation:124\u2021sofrep.com](https://sofrep.com/news/day-history-united-states-marines-raise-american-flag-atop-mt-suribachi/#:~:text=The%20losses%20sustained%20were%20staggering,The)",
+    "Location": "Iwo Jima, Japanese Volcano Islands",
+    "Coordinates": "24.78\u00b0N, 141.32\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Okinawa",
+    "Start_date": "1945-04-01",
+    "End_date": "1945-06-22",
+    "Countries_involved": {
+      "Allies": [
+        "United States"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": ">12,000 [oai_citation:125\u2021defense.gov](https://www.defense.gov/News/Feature-Stories/story/Article/2130718/remembering-the-battle-of-okinawa/#:~:text=Remembering%20the%20Battle%20of%20Okinawa,Marines%20died%20during%20the%20fighting)",
+    "Military_deaths_Axis": "\u2248110,000 [oai_citation:126\u2021britannica.com](https://www.britannica.com/topic/Battle-of-Okinawa#:~:text=Battle%20of%20Okinawa%20,of%20Okinawa%20was%20reduced)",
+    "Civilian_deaths": "\u2248100,000 (Okinawan civilians) [oai_citation:127\u2021supportourtroops.org](https://supportourtroops.org/news/2808-op-varsity#:~:text=They%20launched%20kamikaze%20attacks%20and,battle%20also%20resulted%20in)",
+    "Outcome": "Allied (U.S.) victory [oai_citation:128\u2021supportourtroops.org](https://supportourtroops.org/news/2808-op-varsity#:~:text=They%20launched%20kamikaze%20attacks%20and,battle%20also%20resulted%20in)",
+    "Location": "Okinawa, Japanese Ryukyu Islands",
+    "Coordinates": "26.50\u00b0N, 128.00\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Imphal & Kohima",
+    "Start_date": "1944-03-08",
+    "End_date": "1944-07-18",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom (India)"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "~17,500 casualties (Commonwealth) [oai_citation:129\u2021history.com](https://www.history.com/articles/operation-market-garden-failure-allies#:~:text=,Operation%20Market%20Garden%20had)",
+    "Military_deaths_Axis": "~30,000 (Japanese killed, mostly from disease/starvation)",
+    "Civilian_deaths": "Unknown (local Naga and Manipuri civilians affected)",
+    "Outcome": "Allied victory (Japan's invasion of India repelled) [oai_citation:130\u2021history.com](https://www.history.com/articles/operation-market-garden-failure-allies#:~:text=,Operation%20Market%20Garden%20had)",
+    "Location": "Imphal & Kohima, India (Burma Front)",
+    "Coordinates": "24.80\u00b0N, 93.94\u00b0E (Imphal)",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Changsha (1939)",
+    "Start_date": "1939-09-17",
+    "End_date": "1939-10-06",
+    "Countries_involved": {
+      "Allies": [
+        "China"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "~35,000 (Chinese casualties)",
+    "Military_deaths_Axis": "~20,000 (Japanese casualties)",
+    "Civilian_deaths": "Thousands (Chinese civilians in Hunan)",
+    "Outcome": "Allied (Chinese) victory [oai_citation:131\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Stalingrad#:~:text=result%20of%20the%20bombing.,89)",
+    "Location": "Changsha, China",
+    "Coordinates": "28.20\u00b0N, 112.97\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Khalkhin Gol",
+    "Start_date": "1939-05-11",
+    "End_date": "1939-09-16",
+    "Countries_involved": {
+      "Allies": [
+        "Soviet Union",
+        "Mongolia"
+      ],
+      "Axis": [
+        "Japan (Manchukuo)"
+      ]
+    },
+    "Military_deaths_Allies": "\u22489,700 [oai_citation:132\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Invasion_of_Poland#:~:text=The%20Soviets%20lost%20approximately%20150,12)",
+    "Military_deaths_Axis": "\u22488,400",
+    "Civilian_deaths": "None (border clash area)",
+    "Outcome": "Allied (Soviet) victory [oai_citation:133\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Invasion_of_Poland#:~:text=The%20Soviets%20lost%20approximately%20150,12)",
+    "Location": "Khalkhin Gol (Nomonhan), Mongolia\u2013Manchukuo border",
+    "Coordinates": "47.90\u00b0N, 118.70\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Tarawa",
+    "Start_date": "1943-11-20",
+    "End_date": "1943-11-23",
+    "Countries_involved": {
+      "Allies": [
+        "United States"
+      ],
+      "Axis": [
+        "Japan"
+      ]
+    },
+    "Military_deaths_Allies": "1,009 [oai_citation:134\u2021sofrep.com](https://sofrep.com/news/day-history-united-states-marines-raise-american-flag-atop-mt-suribachi/#:~:text=United%20States%20Marines%20raise%20the,The)",
+    "Military_deaths_Axis": "4,690 (nearly entire garrison)",
+    "Civilian_deaths": "~1,000 (Korean forced laborers)",
+    "Outcome": "Allied (U.S.) victory",
+    "Location": "Tarawa (Betio), Gilbert Islands",
+    "Coordinates": "1.35\u00b0N, 172.92\u00b0E",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of the River Plate",
+    "Start_date": "1939-12-13",
+    "End_date": "1939-12-13",
+    "Countries_involved": {
+      "Allies": [
+        "United Kingdom",
+        "New Zealand"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "72 [oai_citation:135\u2021canadahistory.com](https://canadahistory.com/sections/war/WWII/Hong_Kong.html#:~:text=Hong%20Kong%20,com%2F)",
+    "Military_deaths_Axis": "36 [oai_citation:136\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Hong_Kong#:~:text=1%2C560%E2%80%932%2C278%20killed%20or%20missing%202%2C300,lost%2C%20675%20killed%202%2C079)",
+    "Civilian_deaths": "0",
+    "Outcome": "Allied victory (Graf Spee scuttled) [oai_citation:137\u2021en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_of_Hong_Kong#:~:text=1%2C560%E2%80%932%2C278%20killed%20or%20missing%202%2C300,lost%2C%20675%20killed%202%2C079)",
+    "Location": "R\u00edo de la Plata (off Uruguay/Argentina)",
+    "Coordinates": "35.50\u00b0S, 55.50\u00b0W",
+    "type": [
+      "ground"
+    ]
+  },
+  {
+    "Battle": "Battle of Narvik",
+    "Start_date": "1940-04-09",
+    "End_date": "1940-06-08",
+    "Countries_involved": {
+      "Allies": [
+        "Norway",
+        "United Kingdom",
+        "France",
+        "Poland"
+      ],
+      "Axis": [
+        "Germany"
+      ]
+    },
+    "Military_deaths_Allies": "~1,700",
+    "Military_deaths_Axis": "~2,500",
+    "Civilian_deaths": "~100 (Norwegian civilians)",
+    "Outcome": "Allied tactical victory (Narvik retaken) but later evacuated [oai_citation:138\u2021worldatlas.com](https://www.worldatlas.com/world-wars/major-battles-of-world-war-ii.html#:~:text=In%201940%2C%20following%20the%20Nazi,By)",
+    "Location": "Narvik, Norway",
+    "Coordinates": "68.44\u00b0N, 17.43\u00b0E",
+    "type": [
+      "ground"
+    ]
+  }
+]
